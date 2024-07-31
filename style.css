@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+} 
+.container{
+    width: 100%;
+    height: 100vh;
+    background:url('/milky-way-starry-sky-night-sky-star-956999.jpeg') no-repeat;
+    background-size: cover;
+}
+.box {
+    width: 400px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 5px rgb(160, 218, 243), -2px -2px -5px rgb(158, 238, 254);
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    padding: 20px 40px;
+
+}
+.signup-header h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 5px 8px;
+}
+.sign up body {
+    margin-top: 20px;
+}
+.signup-body p input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-block: 4px;
+    border: none;
+    outline: none;
+    color: black;
+}
+.signup-body span {
+    font-size: 18px;
+    font-weight: 600;
+    color: aquamarine;
+}
+.signup-body p input[type="submit"]{
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover {
+    background-color: #2773a5;
+}
+.signup-footer p {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.signup-footer p a {
+    text-decoration: none;
+}
+.signup-footer p a:hover {
+    text-decoration: underline;
+}
